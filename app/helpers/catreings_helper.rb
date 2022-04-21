@@ -1,0 +1,2 @@
+module CatreingsHelper
+end

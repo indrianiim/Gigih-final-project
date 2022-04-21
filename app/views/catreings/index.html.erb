@@ -1,0 +1,18 @@
+<h1>Catreings Menu</h1>
+<table>
+  <thead>
+    <tr>
+        <td><b>Name</b></td>
+        <td><b>Information</b></td>
+    </tr>
+  </thead>
+  <tbody>
+    <% @caterings.each do |catering| %>
+      <tr>
+        <td><%= catering.name %></td>
+        <td><%= catering.information %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+<a href="/caterings/new">Menu Item</a>
